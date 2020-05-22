@@ -11,12 +11,14 @@ email = input("Enter your Holberton email: ")
 print("-----------------------")
 password = getpass("Enter your Holberton Password: ")
 print("-----------------------")
+api = input("Enter your Holberton api: ")
+print("-----------------------")
 
 """
 Getting the authentification token
 """
 url = 'https://intranet.hbtn.io/users/auth_token.json'
-myobj = {"api_key": "fe3e225209c87990a3936b41c9ce2c14", "email": email, "password": password, "scope": "checker"}
+myobj = {"api_key": api, "email": email, "password": password, "scope": "checker"}
 x = requests.post(url, data=myobj)
 xj = x.json()
 try:
