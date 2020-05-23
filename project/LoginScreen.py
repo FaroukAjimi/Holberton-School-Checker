@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import requests
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout

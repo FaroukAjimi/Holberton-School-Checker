@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 from project import sm, Screen
 from kivy.lang.builder import Builder
-from project import Brand
-from project import LoginScreen
-from project import Project
 from project import Tasks
 
 
