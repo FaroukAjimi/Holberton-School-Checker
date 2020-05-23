@@ -6,6 +6,8 @@ This Application will allow you to send correction requests by taking your holbe
 - Holberton password
 - Your Holberton API key (that you’ll find on the intranet/tools).
 - Click on Connect
+
+
 Once you’ve made your authentication you’ll just need to pass the project ID and the number of the task that you want to check and then click on Request Correction to send a correction request. Once the progress bar is loaded you’ll finally see the result of the correction.
 
 
